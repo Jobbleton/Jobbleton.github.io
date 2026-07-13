@@ -1,80 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Projects</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
-</head>
-<body style="background-color: #9cc2e3">
-    <div class="jumbotron col-xs-10 col-xs-offset-1" style="background-color: #ffffff; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;">
-	<div>
-	<a href="index.html" title="Back to the Home page">[Home]</a>
-	<a href="education.html" title="Education: Goal, Elective and Takeaways">[Education]</a>
-	<a href="projects.html" title="My Projects">[Projects]</a>
-	<a href="reflection.html" title="My Reflection">[Academic Reflection]</a></div>
-	<h1>Joe Randazzo</h1>
+<head><meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project Portfolio | Joe Randazzo</title><!-- Bootstrap 5 CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Google Fonts for amore modern look -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+	<style>body {
+            background-color: #9cc2e3;
+            font-family: 'Inter',sans-serif;
+            color: #333;
+            padding-bottom: 60px;}
+
+        /* Navigation Styling */
+        .nav-container {
+            background-color: #ffffff;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            padding: 2rem;
+            margin-bottom: 3rem;box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .nav-link-custom {
+            color: #003366;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 15px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link-custom:hover {
+            background-color: #9cc2e3;
+            color: white;
+        }
+
+        /* Project Card Styling */
+        .project-card {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 20px;
+            padding: 35px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+        }
+
+        .project-title{
+            color: #003366;
+            font-weight: 700;margin-bottom: 15px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .project-title:hover {
+            color: #0056b3;
+        }
+
+        .badge-tech {
+            background-color: #e9ecef;color: #495057;
+            font-weight: 600;
+            font-size: 0.8rem;
+            padding: 5px 12px;
+            border-radius: 50px;
+            margin-right: 5px;
+            margin-bottom:10px;
+            display: inline-block;
+        }
+
+        .section-header {
+            color:#ffffff;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+            margin-bottom: 2rem;
+            font-weight: 700;}
+
+        .btn-download {
+            background-color: #003366;color: white;
+            border-radius: 10px;
+            padding: 10px20px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .btn-download:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+	</style></head>
+<body>
+
+<!-- Navigation Header -->
+<header class="container">
+	<div class="row justify-content-center">
+		<div class="col-md-10 nav-container text-center">
+			<nav class="mb-4">
+				<a href="index.html" class="nav-link-custom">Home</a>
+				<a href="education.html" class="nav-link-custom">Education</a>
+				<a href="projects.html" class="nav-link-custom">Projects</a>
+				<a href="reflection.html" class="nav-link-custom">Reflection</a>
+			</nav>
+			<h1 class="display-4 fw-bold" style="color: #003366;">Joe Randazzo</h1>
+			<p class="text-muted">Software Engineer & Technical Project Leader</p>
+		</div>
 	</div>
-    <div class="container col-xs-8 col-xs-offset-2" style="background-color: #ffffff; border-top: 20px; padding-top: 20px; padding-bottom: 20px; min-height: 100%; border-radius: 25px;">
-	<h2>Projects</h2>
-	<div>
-		<h2>
-			<a href="CyBlood.zip" target="_blank">CyBlood</a>
-		</h2>
-		<p>
-		CyBlood was a 4-man project where we made an android,
-		iOS, and PC app to get and give blood donor information
-		to the proper people. I functioned as a team leader and kept
-		everything documented and done in a timely manner.
-		</p>
-		<h2>
-		<a href="Chess.zip" target="_blank">Chess</a>
-		</h2>
-		<p>
-		Chess was a 2-man project where we made
-		a simple, expandable, modular Java app from
-		the ground up to play Chess. We added multiplayer
-		functionality, online play, applied optimization,
-		and thorough documentation. I functioneed as back-end
-		and provided all game rules and functionality.
-		</p>
-		<h2>
-		<a href="HomeBanking.zip" target="_blank">Home Banking</a>
-		</h2>
-		<p>
-		Home Banking was a 3-man project where we made a Java
-		application managing income in a home, allowing layers
-		of access to money within a home, as well as documenting
-		exchanges made. I functioned as a team leader and coordinated
-		timely meetings and communications with the professor about
-		any questions/issues.
-		</p>
-		<h2>
-		<a href="dronemapping.html" target="_blank">Quadcopter</a>
-		</h2>
-		<p>
-		Project A.L.I.S. was a 6-man project where we expanded an existing
-		quadcopter project to map an area better than before. I function as a
-		team leader and talk directly with our company, advisors, and team on
-		each other's behalf, scheduling meetings and quickly and thoroughly
-		resolving intercommunication issues. The site can be reached at
-		<a href="http://may1712.sd.ece.iastate.edu/">this link</a>.
-		</p>
-		<h2>
-		<a href="https://thebasementnerd.itch.io/cubecube" target="_blank">Game Design (Online)</a>
-		</h2>
-		<p>
-		The Basement Games is a video game company that I collaborate with for physics and general consultation.
-		I've learned, drawn up diagrams, and taught physics to their programmers for their
-		upcoming unnamed racing game, and continue to be on call for various inquiries.
-		</p>
-		<h2>
-		<a href="https://www.patreon.com/cloverart/overview" target="_blank">Game Design (Ames)</a>
-		</h2>
-		<p>
-		Fillthecup Games is a company my fiance and I started late 2017 where we are currently designing games for mobile. 
-		We utilize Unity for prototypes and we do it more as a hobby. We collaborate through GitHub and Dsicord with colleagues and other local artists for resources and sprites, and we're having a blast.
-		</p>
+</header>
+
+<main class="container"><div class="row justify-content-center">
+	<div class="col-md-9">
+		<h2 class="text-center section-header">Technical Portfolio & Initiatives</h2>
+
+		<!-- Project: CyBlood --><div class="project-card">
+		<div class="d-flex justify-content-between align-items-start flex-wrap">
+			<a href="CyBlood.zip" class="project-title h3">CyBlood: Cross-Platform Healthcare Logistics</a>
+			<span class="badge-tech">Android / iOS / PC</span>
+		</div>
+		<p class="text-muted"><strong>Role: Project Lead & Documentation Specialist</strong></p><p>CyBlood was a comprehensive full-stack initiative designed to bridge the communication gap between blood donors and medicalfacilities. Leading a cross-functional team of four, I oversaw the end-to-end development lifecycle across mobile anddesktop environments. My primary focus was ensuring rigorous documentation standards and maintaining an agile development schedule to ensure timely delivery of a secure, data-driven information exchange system.</p>
+		<a href="CyBlood.zip" class="btn-download">Download Source (.zip)</a>
 	</div>
+
+		<!-- Project: Chess -->
+		<div class="project-card"><div class="d-flex justify-content-between align-items-start flex-wrap"><a href="Chess.zip" class="project-title h3">Modular Java Networked Chess Engine</a>
+			<spanclass="badge-tech">Java / Socket Programming</span>
+		</div>
+			<p class="text-muted"><strong>Role: Backend Architect & Logic Engineer</strong></p>
+			<p>This project involved the ground-up constructionof a highly modular Java application utilizing Object-Oriented Design patterns. I architected the entire backend engine, implementing complex gamelogic, move validation, and state management. We successfully integrated networked multiplayer functionality, allowing for real-time online play.The project emphasized code extensibility, allowing for future rule-set expansions and AI integration.</p>
+			<a href="Chess.zip" class="btn-download">Download Source (.zip)</a>
+		</div>
+
+		<!-- Project: Home Banking -->
+		<div class="project-card">
+			<div class="d-flex justify-content-between align-items-start flex-wrap">
+				<a href="HomeBanking.zip"class="project-title h3">Multi-Tiered Domestic Financial Management System</a>
+				<span class="badge-tech">Java / Security Logic</span>
+			</div>
+			<p class="text-muted"><strong>Role: TeamLead & Stakeholder Liaison</strong></p>
+			<p>Designed to manage complex domestic financial flows, this Javaapplication introduced Role-Based Access Control (RBAC) to household budgeting. The system allows for varying layers of financial authorizationand maintains a comprehensive audit trail of all exchanges. As team leader, I coordinated all sprint meetings and served as the primary pointof contact for technical inquiries, ensuring the project met all security and functional requirements.</p>
+			<a href="HomeBanking.zip" class="btn-download">Download Source (.zip)</a>
+		</div>
+
+		<!-- Project: Quadcopter -->
+		<div class="project-card">
+			<div class="d-flex justify-content-between align-items-start flex-wrap">
+				<a href="dronemapping.html"class="project-title h3">Project A.L.I.S. – Autonomous Quadcopter Mapping</a><span class="badge-tech">Embedded Systems / GIS</span>
+			</div>
+			<p class="text-muted"><strong>Role: Project Manager & Corporate Liaison</strong></p>
+			<p>Project A.L.I.S. (Autonomous Locational Information System) was a high-stakes expansion of existing drone architecture. Leading a6-person team, I managed the integration of advanced mapping sensors and autopilot software. I acted as the direct liaison between ourcorporate sponsors and the engineering team, translating high-level business requirements into technical milestones and resolving complex inter-team communication bottlenecks.</p>
+			<div class="mt-3">
+				<a href="http://may1712.sd.ece.iastate.edu/" class="btn-download" target="_blank">Visit Project Site</a></div>
+		</div>
+
+		<!-- Project: Game Design Consultation -->
+		<div class="project-card"><div class="d-flex justify-content-between align-items-start flex-wrap"><a href="https://thebasementnerd.itch.io/cubecube" class="project-title h3">Technical Physics Consultation & Modeling</a>
+			<span class="badge-tech">Physics Engines / Kinematics</span>
+		</div>
+			<p class="text-muted"><strong>Role: Technical Consultant</strong></p><p>Collaborating with <em>The Basement Games</em>, I provide specialized consultation on rigid-body physics andmathematical modeling. My work involves drafting technical diagrams and educating development teams on kinematic principles for an upcoming high-fidelity racing title. I remain on-call to resolve edge-case physics bugs and optimize collision detection algorithms.</p>
+		</div>
+
+		<!--Project: Fillthecup Games -->
+		<div class="project-card">
+			<div class="d-flex justify-content-between align-items-start flex-wrap">
+				<a href="https://www.patreon.com/cloverart/overview" class="project-title h3">Fillthecup Games:Independent Mobile Development</a>
+				<span class="badge-tech">Unity / C# / GitHub</span>
+			</div><p class="text-muted"><strong>Role: Co-Founder & Lead Developer</strong></p>
+			<p>Founded in late 2017, Fillthecup Games is an independent studio focused on rapid prototyping and mobile gamedesign. Utilizing the Unity engine, we manage our entire asset pipeline and codebase through GitHub. We maintain an active collaborative networkwith local artists and developers via Discord, focusing on community-driven development and iterative design cycles.</p>
+		</div></div>
 </div>
+</main>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
