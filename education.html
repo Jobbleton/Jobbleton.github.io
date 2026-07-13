@@ -1,45 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Education</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><title>Education | Joe Randazzo</title>
+
+	<!-- Updated to Bootstrap 5 --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		body {background-color: #9cc2e3;
+            padding-bottom: 50px;color: #333;
+        }
+        .nav-container {
+            background-color:#ffffff;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            padding: 2rem;
+            margin-bottom:2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .nav-link-custom {
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+            padding: 5px 10px;
+            transition:0.3s;
+        }
+        .nav-link-custom:hover {
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }.content-card {
+            background-color: #ffffff;
+            border-radius: 25px;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1, h2,h4 {
+            color: #003366;
+        }
+        .elective-item {margin-bottom: 20px;
+            padding-left: 15px;
+            border-left:4px solid #9cc2e3;
+        }
+        .goal-text {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #555;}
+	</style>
 </head>
-<body style="background-color: #9cc2e3">
-    <div class="jumbotron col-xs-10 col-xs-offset-1" style="background-color: #ffffff; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;">
-	<div>
-	<a href="index.html" title="Back to the Home page">[Home]</a>
-	<a href="education.html" title="Education: Goal, Elective and Takeaways">[Education]</a>
-	<a href="projects.html" title="My Projects">[Projects]</a>
-	<a href="reflection.html" title="My Reflection">[Academic Reflection]</a></div>
-	<h1>Joe Randazzo</h1>
+<body>
+
+<!-- Navigation Header -->
+<header class="container">
+	<div class="row justify-content-center">
+		<div class="col-md-10 nav-container text-center">
+			<nav class="mb-3">
+				<a href="index.html" class="nav-link-custom">Home</a>
+				<a href="education.html" class="nav-link-custom">Education</a>
+				<a href="projects.html" class="nav-link-custom">Projects</a>
+				<a href="reflection.html" class="nav-link-custom">Reflection</a>
+			</nav>
+			<h1 class="display-5 fw-bold">Joe Randazzo</h1></div>
 	</div>
-    <div class="container col-xs-8 col-xs-offset-2" style="background-color: #ffffff; border-top: 20px; padding-top: 20px; padding-bottom: 20px; min-height: 100%; border-radius: 25px;">
-	<h2>Goal</h2>
-	<div>
-		<p>Working alongside bright, talented people and ground floor technology to optimize efficiency with egality in mind, in the grand goal of autonomy freeing humanity to do what we love rather than overtaking us.</p>
+</header>
+
+<!-- Main Content -->
+<main class="container"><div class="row justify-content-center">
+	<div class="col-md-8content-card">
+
+		<section class="mb-5">
+			<h2 class="border-bottom pb-2">Goal</h2>
+			<p class="goal-text">"Working alongside bright, talented people and groundfloor technology to optimize efficiency with egality in mind, in the grand goal of autonomy freeing humanity to do what we loverather than overtaking us."</p>
+		</section>
+
+		<section class="mb-5"><h2 class="border-bottom pb-2">Electives</h2>
+
+			<div class="elective-item">
+				<h4>Object-Oriented Analysis and Design</h4>
+				<p>Ins and outs of diagramming,largely dealing with following and perfecting models. Learned communication techniques and normalizing ideas through models.</p>
+			</div><div class="elective-item">
+				<h4>Software Testing</h4>
+				<p>Testing from the bottom up, with all kinds of coverage. How to work together to present projects and analysis for large systems.</p></div>
+
+			<div class="elective-item">
+				<h4>Principles of Artificial Intelligence</h4>
+				<p>Absolutely fascinating course covering artificial intelligence and its applications. Potentially my favorite course I have ever taken. Covered practical and ethical applications ofintelligent software.</p>
+			</div>
+
+			<div class="elective-item">
+				<h4>Economics (Micro & Macro)</h4>
+				<p>I have a deep understanding of economic principles and have performed consistently well in these analytical courses.</p>
+			</div>
+
+			<div class="elective-item">
+				<h4>Technical Communication</h4><p>Writing and presenting in a technical manner. Focused on brevity and thorough descriptions while maintaining personality and interest.</p></div>
+		</section>
+
+		<section>
+			<h2 class="border-bottom pb-2">Specific Takeaways</h2>
+			<p>Over all my technical classes, I learned the importance of modelsand modularity on systems of any size. I discovered and used testing tools of all kinds, explored intelligent agents, andfocused on efficiency for real-time systems and algorithm design.</p>
+
+			<p>A highlight was developingsensors on a Roomba-type robot in C: our final project involved land surveying with limited echolocation, which taughtme the importance of caution and analysis in environments with limited information.</p>
+
+			<p>Beyond engineering, my interest in economics and finance is deep-rooted. I value the understanding of how geopolitical and temporal consequences affect thework we do in the engineering field.</p>
+		</section>
+
 	</div>
-	<h2>Electives</h2>
-	<div>
-		<h4>Object-Oriented Analysis and Design</h4>
-		<p>Ins and out of diagramming, largely dealing with following and perfecting models. Learned communciation techniques and normalizing ideas through models.</p>
-		<h4>Software Testing</h4>
-		<p>Testing from the bottom up, with all kinds of coverage. How to work together to present projects and analysis for large systems.<br>
-		<h4>Principles of Artificial Intelligence</h4>
-		<p>Absolutely fascinating course covering artificial inteligence and its applications. Potentially my most favorite course I have ever taken in my many years being a student. Covered practical and ethical applications of intelligent software.</p>
-		<h4>Priciples of Microeconomics, and Principles of Macroeconomics</h4>
-		<p>2 courses I've taken lumped together for this description: I have done incredibly well in these courses and have a very good understanding of economics.</p>
-		<h4>Music Listening</h4>
-		<p>Music from all around the world, various artists and instruments from all time. Pattern recognition and progression.</p>
-		<h4>Social Problems</h4>
-		<p>Understanding the issues and priviledges surrounding people all over the world, some basic ethical philosophy. Subjectivism in ethics and morality. Tackling social issues both global and local.</p>
-		<h4>Technical Communication</h4>
-		<p>Writing and presenting in a technical manner. Brevity and thorough descriptions, while still showing personality and interest.</p>
-        <h2>Specific Takeaways</h2>
-		<div>
-		<p>Over all my technical classes, I learned the importance of models and modularity on systems of any size, discovered and used testing tools of all kinds, intelligent agents, and importances in efficiency for real time systems, various algorithm design, and heuristics. Also included is the ethical, temporal and geopolitical consequences of work in engineering- which are all far-reaching and thrilling. Dealt with developing sensors on a Roomba-type robot in the c programming language: rocked the final project with land surveying with limited echolocation, which taught me the importance of caution and analysis for situations with limited access to information from an environment.</p>
-		<br>
-		<p>For totally non-technical electives, my knowledge and interest in economics and finances is deep-rooted and undying. Much to the dismay of come colleagues and family members, I like talking about economics</p>
-		</div>
-    </div>
+</div>
+</main>
+
+</body>
 </html>
