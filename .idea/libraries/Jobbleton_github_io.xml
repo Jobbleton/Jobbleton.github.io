@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Jobbleton.github.io">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CyBlood.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Chess.zip!/" />
+      <root url="jar://$PROJECT_DIR$/HomeBanking.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
