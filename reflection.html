@@ -1,43 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Reflection</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+	<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Academic Reflection | Joe Randazzo</title>
+
+	<!-- Bootstrap 5 CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<style>
+		body {
+            background-color:#9cc2e3; /* Theme Blue */
+            font-family: 'Inter', sans-serif;color: #333;
+            padding-bottom: 60px;
+        }/* Navigation Header */
+        .nav-container {
+            background-color: #ffffb3; /* Theme Yellow */border-bottom-right-radius: 25px;
+            border-bottom-left-radius:25px;
+            padding: 2rem;
+            margin-bottom: 3rem;box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .nav-link-custom {
+            color: #003366;
+            text-decoration: none;
+            font-weight: 600;margin: 0 15px;
+            padding: 8px 16px;
+            border-radius:8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link-custom:hover {
+            background-color: #9cc2e3;
+            color: #003366;
+        }
+
+        /* Content Card */
+        .reflection-card {
+            background-color: #ffffb3; /* Theme Yellow */
+            border-radius: 30px;padding: 50px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            color: #003366;
+            font-weight: 700;
+            border-bottom: 3px solid #9cc2e3;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            padding-bottom: 5px;
+        }.reflection-block {
+            margin-bottom: 3rem;
+            background: rgba(255, 255, 255, 0.4);
+            padding: 25px;border-radius: 20px;
+            border-left: 5px solid #003366;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .highlight-text {
+            color: #003366;
+            font-weight: 600;
+        }
+
+        .org-badge {
+            background-color: #003366;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            margin-right: 5px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+	</style>
 </head>
-<body style="background-color: #9cc2e3">
-    <div class="jumbotron col-xs-10 col-xs-offset-1" style="background-color: #ffffff; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;">
-	<div>
-	<a href="index.html" title="Back to the Home page">[Home]</a>
-	<a href="education.html" title="Education: Goal, Elective and Takeaways">[Education]</a>
-	<a href="projects.html" title="My Projects">[Projects]</a>
-	<a href="reflection.html" title="My Reflection">[Academic Reflection]</a></div>
-	<h1>Joe Randazzo</h1>
+<body>
+
+<!-- Navigation Header -->
+<header class="container">
+	<div class="rowjustify-content-center">
+		<div class="col-md-10 nav-container text-center">
+			<nav class="mb-4">
+				<a href="index.html" class="nav-link-custom">Home</a>
+				<a href="education.html" class="nav-link-custom">Education</a>
+				<a href="projects.html" class="nav-link-custom">Projects</a><a href="reflection.html" class="nav-link-custom">Reflection</a>
+			</nav><h1 class="display-4 fw-bold" style="color: #003366;">Joe Randazzo</h1>
+			<p class="text-muted text-uppercase tracking-widest">Academic & Professional Reflection</p>
+		</div>
 	</div>
-    <div class="container col-xs-8 col-xs-offset-2" style="background-color: #ffffff; border-top: 20px; padding-top: 20px; padding-bottom: 20px; min-height: 100%; border-radius: 25px;">
-	<h2>Academic Reflection</h2>
-	<div>
-	<h3>Iowa State University Technical Preparedness</h3>
-	<p>
-During my four years at Iowa State University, I have gained a strong understanding of computer systems and processes, particularly through education in Object-Oriented Design and the classes about and frequent use of diagrams. Through many team and solo development engineering courses I have learned how to formulate, tackle, and solve various engineering problems- small and large. As a result from my breadth of experience in projects of all sizes, my world view has been broadened drastically and now constantly concern myself with how my decisions affect not only the product, but the consumer, society, and the world.
-	</p>
-	<h3>Iowa State University Humanities</h3>
-	<p>
-I have worked in eight official group projects and performed much unofficial collaborative education with my colleagues in single-developer courses when possible. Through collaboration with colleagues and upkeeping with news local, national and international, I keep an informed contemporary view of the world. I reworked two projects where the issues addressed were too far-reaching and not properly addressing current issues. I have a strong sense of ethical and professional responsibility, and always respect and take minutes in professional enviroments. This is a result of course practice and many professional tours of software locations.
-	</p>
-	<h3>External Education Resources</h3>
-	<p>
-For project/problem courses which required unfamiliar languages, I used and practiced with code school/stack overflow sites to partially guide my development. For algorithms and advanced techniques, and particularly so for artificial intelligence, I used library resources/scholarly articles dealing with similar ideas. For conceptual courses which heavily rely on lecture materials, I discussed and got plenty of supplemental assistance from teaching assistants and professor(s) through scheduled/unscheduled out-of-class discussions.
-	</p>
-	<h3>Out-of-class Experiences</h3>
-	<p>
-During career fairs, I was shown and appreciated the huge variety of opportunities for engineering, small and large companies, agricultural to urban, local to international, front to back-end, production to distribution, and obviously much more. For student orgs, I have been a part of Aerospace Engineering Club, Physics and Astronomy Club, Minecraft Club, and Anime Club. All of them I have an indescribable passion for in some way.
-	</p>
-	<h3>Independent Education</h3>
-	<p>
-For software, most of my independent education is in the form of learning new and relearning older but still important languages such as Python and C# respectively through code schools and implementations in school projects that do not directly require said languages but whose understanding of such languages helps immensely. Additionally, during education of algorithms and artificial intelligence, I spent much independent learning time on algorithms and learning methods not covered in courses, particularly interesting sorts/data storage and off-the-wall pathing algorithms.
-	</p>
+</header>
+
+<main class="container">
+	<div class="row justify-content-center">
+	<div class="col-md-9 reflection-card"><h2 class="text-center mb-5 fw-bold" style="color: #003366;">The Iowa State Journey</h2>
+
+		<!-- Technical Preparedness -->
+		<div class="reflection-block">
+			<h3 class="section-title">Technical Preparedness & Systems Engineering</h3>
+			<p>
+				During my tenure at <span class="highlight-text">Iowa State University</span>, I developed a robustfoundation in computational theory and systems architecture. My education in <strong>Object-Oriented Design</strong> and the rigorous application of modelingdiagrams allowed me to bridge the gap between abstract concepts and functional software. Through a diverse array of team-based engineering courses, I mastered the ability to decompose complex, large-scale problems into manageable, modular solutions. This breadth of experience hasshifted my perspective from simple "coding" to a holistic view of <strong>Systems Engineering</strong>, where every decision is weighed againstits impact on the consumer, society, and the global environment.
+			</p>
+		</div>
+
+		<!--Humanities & Ethics -->
+		<div class="reflection-block">
+			<h3 class="section-title">Humanities, Collaboration & Ethical Responsibility</h3>
+			<p>
+				Collaboration is the cornerstone of modern engineering. Having served in <span class="highlight-text">eight formal project groups</span>, I have refined my ability to lead and contribute within diverse technical teams. My commitment to social responsibility led me to rework two major projects when I identified that their scopes did not sufficiently address contemporaryethical challenges. I maintain a vigilant, informed view of global affairs, ensuring my professional work aligns with a strong sense of<strong>ethical and professional responsibility</strong>. I treat every professional environment with the utmost respect, prioritizing meticulous documentation and stakeholder communication.
+			</p>
+		</div>
+
+		<!-- External Resources -->
+		<div class="reflection-block">
+			<h3 class="section-title">Resourcefulness & Research Methodologies</h3>
+			<p>
+				In anindustry that evolves daily, resourcefulness is a vital skill. When faced with unfamiliar languages or legacy frameworks, I leverage amix of <strong>scholarly articles, library resources, and industry-standard documentation</strong> to guide my development. For advancedtopics like <strong>Artificial Intelligence</strong>, I look beyond the classroom to peer-reviewed research to implement cutting-edge heuristics. I am a firm believer in the value of mentorship, frequently engaging in deep-dive technical discussions with professors and TAs to gain supplemental insights into complex conceptual materials.
+			</p>
+		</div>
+
+		<!-- Out-of-class -->
+		<div class="reflection-block">
+			<h3 class="section-title">ProfessionalExposure & Community Engagement</h3>
+			<p>
+				My engagement with the engineering community extends beyond the lab. Through variouscareer initiatives, I have explored the vast spectrum of the industry—from agricultural tech to urban infrastructure, and from backend productionto global distribution. My passion for diverse perspectives is reflected in my involvement with several student organizations:
+			</p><div class="mt-2">
+			<span class="org-badge">Aerospace Engineering Club</span>
+			<span class="org-badge">Physics & Astronomy Club</span>
+			<span class="org-badge">Minecraft Club</span>
+			<span class="org-badge">Anime Club</span>
+		</div>
+		</div><!-- Independent Education -->
+		<div class="reflection-block">
+			<h3 class="section-title">Continuous Independent Learning</h3>
+			<p>
+				I am a lifelong learner. I dedicate significant time to masteringmodern languages like <span class="highlight-text">Python and C#</span>, often implementing them in projects where theyaren't strictly required to broaden my technical versatility. My independent research into <strong>Artificial Intelligence and Algorithm Design</strong> has ledme to explore "off-the-wall" pathing algorithms and non-traditional data storage methods. I thrive on the challenge oflearning what isn't covered in the syllabus, ensuring my technical toolkit remains sharp and relevant.
+			</p>
+		</div>
 	</div>
-    </div>
+	</div>
+</main>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
